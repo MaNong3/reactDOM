@@ -101,7 +101,6 @@ module.exports = function(proxy, allowedHost) {
       app.use(noopServiceWorkerMiddleware());
       app.get("/list",(req,res)=>{
           let url =require("../config/data/data")
-
           res.json(url)
       })
     },

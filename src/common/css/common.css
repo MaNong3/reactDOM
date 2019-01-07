@@ -1,15 +1,4 @@
-/*
-* @description:Common usage Styles
-* @author:HaoNan
-* @update:HaoNan (2015-08-1 8:30)
-*/
-@-webkit-viewport {
-    width: device-width;
-}
 
-@-moz-viewport {
-    width: device-width;
-}
 
 @-ms-viewport {
     width: device-width;
@@ -40,7 +29,22 @@ a:hover, a:focus {
 .block {
     display: block;
 }
+.flex{
+    display: flex
+}
+.acenter{
+    align-items: center
+}
 
+.jbetween{
+    justify-content: space-between
+}
+.jaround{
+    justify-content: space-around
+}
+.jcenter{
+    justify-content: space-around
+}
 .float-left {
     float: left;
 }

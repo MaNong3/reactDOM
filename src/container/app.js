@@ -1,15 +1,12 @@
 import React, { Component } from 'react'
-import '../comon/index.css'
-import RouterView from "../router/map"
-import { BrowserRouter as Router} from "react-router-dom"
+import "common/css/bootstrap.min.css"
+import "common/css/style.css"
+import "common/css/common.css"
 export default class App extends Component {
   render() {
     return (
       <div className='wrap'>
-        <Router>
-          <RouterView></RouterView>
-        </Router>
-       
+      张敏
       </div>
     )
   }

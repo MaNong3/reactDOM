@@ -262,8 +262,11 @@ module.exports = function(webpackEnv) {
                 // Support React Native Web
                 // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
                 'react-native': 'react-native-web',
+                //api 是 所有接口 
                 'api': resolveApp("src/api"),
+                //comp 是 组件
                 'comp': resolveApp("src/components"),
+                //路由页面 view  是 视图
                 'view': resolveApp("src/containers"),
                 'store': resolveApp("src/store"),
                 'router': resolveApp("src/router"),
