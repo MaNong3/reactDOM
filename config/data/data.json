@@ -1,0 +1,21 @@
+{
+    "list":[{
+        "id":1,
+        "shop":"衣服",
+        "pice":20,
+        "count":0,
+        "img":"//img13.360buyimg.com/mobilecms/s360x464_jfs/t26434/279/2094172354/487527/56643793/5bf6b354N210be69c.jpg!cc_360x464!q70.dpg.webp"
+    }, {
+            "id": 2,
+            "shop": "裤子",
+            "pice": 20,
+            "count": 0,
+            "img": "//img14.360buyimg.com/n2/s370x474_jfs/t1/6870/25/12124/241317/5c2f95d8E52b25353/93f40ebac88f49fd.jpg!cc_370x474!q70.jpg"
+        }, {
+            "id": 3,
+            "shop": "鞋",
+            "pice": 20,
+            "count": 0,
+            "img": "//img10.360buyimg.com/n2/s370x370_jfs/t1/20410/20/3883/288036/5c2c4ae1E840fcef1/879df8bfc79fd71c.jpg!q70.jpg"
+        }]
+}
