@@ -265,7 +265,7 @@ module.exports = function(webpackEnv) {
                 //api 是 所有接口 
                 'api': resolveApp("src/api"),
                 //comp 是 组件
-                'comp': resolveApp("src/components"),
+                'comp': resolveApp("src/component"),
                 //路由页面 view  是 视图
                 'view': resolveApp("src/containers"),
                 'store': resolveApp("src/store"),

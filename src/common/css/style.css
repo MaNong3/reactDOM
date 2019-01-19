@@ -1,7 +1,3 @@
-body {
-  font-size: 0.12rem;
-}
-
 .wrap {
   position: absolute;
   top: 0;
@@ -11,11 +7,12 @@ body {
   flex-direction: column;
 }
 
-.header {
-  background-color: #de6909;
-  height: 44px;
-  color: #fff;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: .16rem;
 }
 
 html {
@@ -30,6 +27,11 @@ html, body, .wrap {
 .wrap {
   display: flex;
   flex-direction: column;
+}
+
+header {
+  width: 100%;
+  height: .5rem;
 }
 
 section {
