@@ -6,11 +6,11 @@ class RouterView extends React.Component{
             const {routes}=this.props
             const RouterArr = routes===undefined ?Routes  : routes;
             const newRouter=<Route path="/" component={()=>{
-                return <Redirect to="">
+                return <Redirect to="/login">
                     </Redirect>
             }} exact key={0}></Route>
             return <div>                   
-                    <Switch >
+                    <Switch>
                         {
                         RouterArr.map((item, index) => {
                             const Copm = item.component;

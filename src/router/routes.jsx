@@ -1,6 +1,6 @@
+import login from "../components/login"//登录
 const Routes=[{
-    path:"1",
-    component:1
+    path:"/login",
+    component:login
 }]
-
 export default Routes
